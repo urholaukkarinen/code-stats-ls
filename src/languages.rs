@@ -32,6 +32,7 @@ pub fn language_for_extension(extension: &str) -> Option<&'static str> {
         "hx" => Some("Haxe"),
         "hy" => Some("Hy"),
         "idr" => Some("Idris"),
+        "jai" => Some("Jai"),
         "java" => Some("Java"),
         "jl" => Some("Julia"),
         "js" | "mjs" | "cjs" => Some("JavaScript"),
